@@ -15,5 +15,12 @@
         "psr-4": {
             "Agileidc\\Contact\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Agileidc\\Contact\\ContactServiceProvider"
+            ]
+        }
     }
 }
